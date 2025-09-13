@@ -1,0 +1,36 @@
+# Python - Avtomatik yaratiladigan fayllar
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual muhit (agar qo'ysangiz)
+venv/
+ENV/
+env/
+bot_env/
+.venv/
+
+# 🔴 MUKAMMAL XAVFSIZLIK: MAXFIY MA'LUMOTLAR (HECH QACHON REPONA QO'SHILMASIN!)
+# ⚠️ BU FAYLLARNI REPONA QO'SHISH — BOTINGIZNI "CHORLASH" DEMAK!
+TOKEN.txt          # Token fayli (siz TOKEN ni kodga yozmagan bo'lsangiz, bu faylga saqlashingiz mumkin)
+user.json          # Foydalanuvchilar ID lari ro'yxati
+Post.json          # Postlar ma'lumoti (siz "posts.json" deb nomlagansiz, lekin koddan "Post.json" chaqiryapsiz!)
+posts.json         # Postlar ma'lumoti (kodda "posts.json" deb ishlatilmoqda — ikkalasini ham bloklash kerak)
+favorite.json      # Foydalanuvchilarning sevimli postlari
+user_data.json     # Foydalanuvchilar ma'lumotlari (ID, statistika)
+
+# IDE & Editor fayllari
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Log fayllari (dastur ishlash tarixi)
+*.log
+
+# OS fayllari
+.DS_Store
+ehthumbs.db
+Desktop.ini
